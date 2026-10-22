@@ -8,12 +8,12 @@ const ENABLED_KEYS = [
   "nlp",       // natural language processing
   "genai",     // generative ai
   "mlops",     // ML Ops
-  //"dl",        // deep learning
-  //"de",        // data engineering
-  // "da",     // data analytics
-  // "cv",     // computer vision
-  // "ts",     // time series
-  // "dsa",    // DSA & ML algorithms
+  "dl",        // deep learning
+  "de",        // data engineering
+  "da",        // data analytics
+  "cv",        // computer vision
+  "ts",        // time series
+  "dsa",       // DSA & ML algorithms
 ];
 
 const DATA_FOLDER = "../src/components/project/data/";
