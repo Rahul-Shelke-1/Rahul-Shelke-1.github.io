@@ -5,3 +5,6 @@ style_dev.css
 script_dev.js
 index_stagged.html
 projects_citation.md
+
+# ignore .DS_Store
+*.DS_Store
