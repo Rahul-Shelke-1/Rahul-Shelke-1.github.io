@@ -1,0 +1,34 @@
+.portfolio-update {
+    width: fit-content;
+    max-width: 90%;
+    margin: 0 auto 1.5rem;
+    padding: 0.55rem 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+
+    font-size: 0.85rem;
+    color: #777187;
+    text-align: center;
+}
+
+.portfolio-update a {
+    color: var(--hover-color);
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.portfolio-update a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 700px) {
+    .portfolio-update {
+        font-size: 0.75rem;
+        margin-bottom: 1rem;
+    }
+}
