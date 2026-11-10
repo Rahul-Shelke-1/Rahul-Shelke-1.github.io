@@ -1,0 +1,144 @@
+/* Archive Notice */
+
+#archive-notice {
+    width: 100%;
+    max-width: 1100px;
+    /* margin: 7rem auto 0; */
+    position: relative;
+    z-index: 1;
+}
+
+#profile {
+    margin-top: 0;
+}
+
+.archive-notice {
+    padding: 1.25rem 1.5rem;
+    border: 1px solid rgba(174, 144, 250, 0.4);
+    border-radius: var(--radius);
+    background: rgba(174, 144, 250, 0.10);
+    box-shadow: var(--black-shadow);
+}
+
+/* Header */
+
+.archive-notice__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.archive-notice__title {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: var(--hover-color);
+}
+
+.archive-notice__title h2 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.archive-notice__badge {
+    padding: 0.3rem 0.75rem;
+    border-radius: 50px;
+    background: rgba(174, 144, 250, 0.2);
+    color: var(--hover-color);
+    font-size: 0.75rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+/* Description */
+
+.archive-notice__description {
+    color: #55516a;
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+/* Link */
+
+.archive-notice__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    margin-top: 0.85rem;
+    color: var(--hover-color);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.archive-notice__link:hover {
+    color: #3020c9;
+    transform: translateX(3px);
+}
+
+/* Divider */
+
+.archive-notice__divider {
+    margin-top: 1.1rem;
+    border: 0;
+    border-top: 1px solid rgba(174, 144, 250, 0.25);
+}
+
+.archive-notice__footer {
+    margin-top: 0.65rem;
+    color: #777187;
+    font-size: 0.8rem;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 700px) {
+
+    #archive-notice {
+        width: 90%;
+        margin-top: 1rem;
+    }
+
+    .archive-notice {
+        padding: 1rem;
+    }
+
+    .archive-notice__header {
+        gap: 0.5rem;
+    }
+
+    .archive-notice__title h2 {
+        font-size: 0.9rem;
+    }
+
+    .archive-notice__description {
+        font-size: 0.82rem;
+    }
+
+    .archive-notice__link {
+        font-size: 0.82rem;
+    }
+
+}
+
+.archive-notice {
+    width: 80%;
+    max-width: 1100px;
+    margin: 1.5rem auto 3rem;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid rgba(174, 144, 250, 0.4);
+    border-radius: var(--radius);
+    background: rgba(174, 144, 250, 0.10);
+    box-shadow: var(--black-shadow);
+}
+
+@media screen and (max-width: 700px) {
+    .archive-notice {
+        width: 90%;
+        margin: 1rem auto 2rem;
+        padding: 1rem;
+    }
+}
