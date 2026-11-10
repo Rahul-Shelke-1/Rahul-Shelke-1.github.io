@@ -1,16 +1,16 @@
 [
   {
     "project_id": 1,
-    "project_image": "assets/Project/machine_learning/1-heart-stroke-prediction/1-heart-stroke-prediction.png",
+    "project_image": "assets/Project/mlops/1-foundations-infrastructure.png",
     "title": "Foundation & Infra",
     "tags": [
-      "aws-cloud", "iac-terraform", "small-company"
+      "aws-cloud", "iac-opentofu", "small-company"
     ],
     "links": {
-      "github": "https://github.com/Rahul-404/heart-stroke-prediction",
+      "github": "https://github.com/Rahul-Shelke-1/aws-small-mlops.git",
       "demo": null,
-      "docs": "https://github.com/Rahul-404/",
-      "blog": "https://github.com/Rahul-404/",
+      "docs": null,
+      "blog": null,
       "dagshub": null
     },
     "info": {

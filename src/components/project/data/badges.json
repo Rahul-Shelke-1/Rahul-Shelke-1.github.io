@@ -26,9 +26,9 @@
             "dashboard": "https://img.shields.io/badge/Dashboard-4CAF50?logoColor=white",
             "tableau": "https://img.shields.io/badge/Tableau-FF6F00?logo=tableau&logoColor=white",
 
-            "small-company": { "label": "Small Team", "color": "#2ECC71" },
-            "medium-company": { "label": "Medium Team", "color": "#F1C40F", "text": "#000" },
-            "large-company": { "label": "Large Team", "color": "#E74C3C" },
+            "small-company": "https://img.shields.io/badge/Small%20Team-2ECC71?logoColor=white",
+            "medium-company": "https://img.shields.io/badge/Medium%20Team-F1C40F?logoColor=black",
+            "large-company": "https://img.shields.io/badge/Large%20Team-E74C3C?logoColor=white",
 
             "iac-opentofu": "https://img.shields.io/badge/IaC%20(Terraform)-7B42BC?logo=opentofu&logoColor=white",
 
