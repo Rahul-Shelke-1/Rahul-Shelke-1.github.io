@@ -30,7 +30,11 @@
             "medium-company": { "label": "Medium Team", "color": "#F1C40F", "text": "#000" },
             "large-company": { "label": "Large Team", "color": "#E74C3C" },
 
-            "iac-terraform": { "label": "IaC (Terraform)", "color": "#7B42BC" }
+            "iac-opentofu": "https://img.shields.io/badge/IaC%20(Terraform)-7B42BC?logo=opentofu&logoColor=white",
+
+            "classification": "https://img.shields.io/badge/Classification-8B5CF6?logoColor=white",
+
+            "preventive-maintenance": "https://img.shields.io/badge/Preventive%20Maintenance-2563EB?logo=gear&logoColor=white"
         }
     },
     {    

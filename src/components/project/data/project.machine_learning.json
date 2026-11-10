@@ -4,7 +4,7 @@
     "project_image": "assets/Project/machine_learning/2-sensor-fault-prediction/2-sensor-fault-prediction.avif",
     "title": "Sensor Fault Prediction",
     "tags": [
-      "azure-cloud", "terraform-azure"
+      "aws-cloud", "preventive-maintenance", "classification"
     ],
     "links": {
       "github": "https://github.com/Rahul-404/sensor_fault_detection",
